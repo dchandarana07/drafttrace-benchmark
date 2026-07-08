@@ -1,0 +1,20 @@
+{
+ "id": "llm-sanctioned_ai-3",
+ "text": "Honestly I think multitasking is mostly a myth, at least the way people brag about it. Whenever I try to do my chem homework with a show playing and my phone buzzing, I end up rereading the same problem like four times. What feels like doing two things at once is usually your brain rapidly switching between tasks, and each switch costs a little time and focus. So I'm not really saving time, I'm just splitting it worse. Researchers have found that \"heavy media multitaskers performed worse on a test of task-switching ability, likely due to reduced ability to filter out interference from the irrelevant task set\" (Ophir, Nass, & Wagner, 2009). That basically matches what I see in myself, the more tabs I have open the dumber my essays get. Rather than treating multitasking as a skill to perfect, it may be more useful to practice focusing on one task at a time and protecting that attention. Single-tasking sounds boring but it's the only thing that's ever actually gotten my work done on time.",
+ "engine": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT",
+ "evidence": [
+  {
+   "kind": "paste",
+   "text": "Researchers have found that \"heavy media multitaskers performed worse on a test of task-switching ability, likely due to reduced ability to filter out interference from the irrelevant task set\" (Ophir, Nass, & Wagner, 2009). ",
+   "cited": true
+  },
+  {
+   "kind": "ai_insert",
+   "text": "Rather than treating multitasking as a skill to perfect, it may be more useful to practice focusing on one task at a time and protecting that attention. "
+  },
+  {
+   "kind": "ai_insert",
+   "text": "What feels like doing two things at once is usually your brain rapidly switching between tasks, and each switch costs a little time and focus. "
+  }
+ ]
+}

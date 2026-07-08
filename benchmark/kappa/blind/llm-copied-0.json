@@ -1,0 +1,16 @@
+{
+ "id": "llm-copied-0",
+ "text": "So I think multitasking is honestly kind of a myth and not really a skill you should try to build. Contrary to popular belief, the human brain does not process two attention-demanding tasks in parallel; instead, it engages in rapid task-switching, reallocating cognitive resources back and forth between the competing demands. Each of these switches imposes a measurable cost, often referred to as a switch cost, during which performance accuracy declines and reaction times increase. Research conducted at Stanford University found that individuals who identified as heavy media multitaskers performed significantly worse on tests of attention filtering and memory than those who multitasked less frequently. which kind of proves my point i think. And it gets worse the more you look at it, like Studies estimate that the residual attention left over from an interrupted task can linger for several minutes, a phenomenon termed attention residue, whereby a portion of the mind remains fixated on the prior activity even after the individual has nominally moved on. The cumulative effect of frequent switching has been shown to reduce overall productivity by as much as forty percent, while simultaneously elevating reported stress levels and the likelihood of error. In educational settings, students who attempt to study while toggling between coursework and social media consistently demonstrate lower comprehension and retention of the material. So yeah, I'd rather just do one thing at a time and actually do it well.",
+ "evidence": [
+  {
+   "kind": "paste",
+   "text": "Studies estimate that the residual attention left over from an interrupted task can linger for several minutes, a phenomenon termed attention residue, whereby a portion of the mind remains fixated on the prior activity even after the individual has nominally moved on. The cumulative effect of frequent switching has been shown to reduce overall productivity by as much as forty percent, while simultaneously elevating reported stress levels and the likelihood of error. In educational settings, students who attempt to study while toggling between coursework and social media consistently demonstrate lower comprehension and retention of the material. ",
+   "cited": false
+  },
+  {
+   "kind": "paste",
+   "text": "Contrary to popular belief, the human brain does not process two attention-demanding tasks in parallel; instead, it engages in rapid task-switching, reallocating cognitive resources back and forth between the competing demands. Each of these switches imposes a measurable cost, often referred to as a switch cost, during which performance accuracy declines and reaction times increase. Research conducted at Stanford University found that individuals who identified as heavy media multitaskers performed significantly worse on tests of attention filtering and memory than those who multitasked less frequently. ",
+   "cited": false
+  }
+ ]
+}

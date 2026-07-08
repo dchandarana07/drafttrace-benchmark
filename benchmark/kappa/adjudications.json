@@ -1,0 +1,482 @@
+[
+ {
+  "id": "llm-borderline-0",
+  "spans": [
+   {
+    "start": 307,
+    "end": 585,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 0,
+    "note": "Exact full match including trailing space"
+   }
+  ],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-borderline-1",
+  "spans": [
+   {
+    "start": 443,
+    "end": 692,
+    "origin": "uncited",
+    "note": "Exact match of paste evidence 0 (cited:false)",
+    "matchedEvidenceIndex": 0
+   }
+  ],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-borderline-2",
+  "spans": [
+   {
+    "start": 456,
+    "end": 685,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 0,
+    "note": "Exact match including trailing space of uncited paste"
+   }
+  ],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-borderline-3",
+  "spans": [
+   {
+    "start": 475,
+    "end": 799,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 0,
+    "note": "Exact full match of paste (cited:false), including trailing space."
+   }
+  ],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-borderline-4",
+  "spans": [
+   {
+    "start": 386,
+    "end": 601,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 0,
+    "note": "Exact match minus trailing space; paste cited:false"
+   }
+  ],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-copied-0",
+  "spans": [
+   {
+    "start": 99,
+    "end": 710,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 1,
+    "note": "Exact match including trailing space"
+   },
+   {
+    "start": 797,
+    "end": 1450,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 0,
+    "note": "Exact match including trailing space"
+   }
+  ],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-copied-1",
+  "spans": [
+   {
+    "start": 146,
+    "end": 465,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 3
+   },
+   {
+    "start": 465,
+    "end": 773,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 1
+   },
+   {
+    "start": 861,
+    "end": 1136,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 2
+   },
+   {
+    "start": 1136,
+    "end": 1480,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 0
+   }
+  ],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-copied-2",
+  "spans": [
+   {
+    "start": 82,
+    "end": 452,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 1
+   },
+   {
+    "start": 452,
+    "end": 721,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 0
+   },
+   {
+    "start": 758,
+    "end": 1146,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 2
+   },
+   {
+    "start": 1146,
+    "end": 1353,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 3
+   }
+  ],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-copied-3",
+  "spans": [
+   {
+    "start": 55,
+    "end": 666,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 1
+   },
+   {
+    "start": 745,
+    "end": 1396,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 0
+   }
+  ],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-copied-4",
+  "spans": [
+   {
+    "start": 153,
+    "end": 740,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 1
+   },
+   {
+    "start": 802,
+    "end": 1427,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 2
+   },
+   {
+    "start": 1427,
+    "end": 1610,
+    "origin": "ai",
+    "matchedEvidenceIndex": 0
+   }
+  ],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-esl_human-0",
+  "spans": [],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-esl_human-1",
+  "spans": [],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-esl_human-2",
+  "spans": [],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-esl_human-3",
+  "spans": [],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-esl_human-4",
+  "spans": [],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-fully_human-0",
+  "spans": [],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-fully_human-1",
+  "spans": [],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-fully_human-2",
+  "spans": [],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-fully_human-3",
+  "spans": [],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-fully_human-4",
+  "spans": [],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-likely_copied-0",
+  "spans": [
+   {
+    "start": 182,
+    "end": 584,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 0
+   },
+   {
+    "start": 770,
+    "end": 1223,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 1
+   }
+  ],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-likely_copied-1",
+  "spans": [
+   {
+    "start": 132,
+    "end": 346,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 0
+   },
+   {
+    "start": 347,
+    "end": 534,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 1
+   },
+   {
+    "start": 797,
+    "end": 1038,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 2
+   },
+   {
+    "start": 1039,
+    "end": 1193,
+    "origin": "ai",
+    "matchedEvidenceIndex": 3
+   }
+  ],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-likely_copied-2",
+  "spans": [
+   {
+    "start": 132,
+    "end": 520,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 1,
+    "note": "exact full match of paste evidence 1"
+   },
+   {
+    "start": 739,
+    "end": 1131,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 0,
+    "note": "exact full match of paste evidence 0"
+   }
+  ],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-likely_copied-3",
+  "spans": [
+   {
+    "start": 97,
+    "end": 488,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 0,
+    "note": "Exact 391-char match incl. trailing space; text.slice begins 'The constant influx' ends 'activities. '"
+   },
+   {
+    "start": 783,
+    "end": 1063,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 2,
+    "note": "Exact 280-char match; begins 'This phenomenon is consistent' ends 'subsequent task. '"
+   },
+   {
+    "start": 1237,
+    "end": 1438,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 1,
+    "note": "Exact 201-char match; begins 'Cultivating periods' ends 'work requires. '"
+   }
+  ],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-likely_copied-4",
+  "spans": [
+   {
+    "start": 134,
+    "end": 522,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 2,
+    "note": "exact match incl. trailing space"
+   },
+   {
+    "start": 649,
+    "end": 978,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 1,
+    "note": "exact match incl. trailing space"
+   },
+   {
+    "start": 1434,
+    "end": 1785,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 0,
+    "note": "exact match incl. trailing space"
+   }
+  ],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-sanctioned_ai-0",
+  "spans": [
+   {
+    "start": 464,
+    "end": 657,
+    "origin": "ai",
+    "matchedEvidenceIndex": 0
+   },
+   {
+    "start": 765,
+    "end": 941,
+    "origin": "cited",
+    "matchedEvidenceIndex": 1
+   },
+   {
+    "start": 1076,
+    "end": 1250,
+    "origin": "ai",
+    "matchedEvidenceIndex": 2
+   }
+  ],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-sanctioned_ai-1",
+  "spans": [
+   {
+    "start": 319,
+    "end": 519,
+    "origin": "ai",
+    "matchedEvidenceIndex": 2
+   },
+   {
+    "start": 762,
+    "end": 932,
+    "origin": "cited",
+    "matchedEvidenceIndex": 1
+   },
+   {
+    "start": 1084,
+    "end": 1242,
+    "origin": "ai",
+    "matchedEvidenceIndex": 0,
+    "note": "trailing space of evidence text absent at end of essay"
+   }
+  ],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-sanctioned_ai-2",
+  "spans": [
+   {
+    "start": 726,
+    "end": 967,
+    "origin": "cited",
+    "matchedEvidenceIndex": 0
+   },
+   {
+    "start": 271,
+    "end": 490,
+    "origin": "uncited",
+    "matchedEvidenceIndex": 1
+   },
+   {
+    "start": 1183,
+    "end": 1366,
+    "origin": "ai",
+    "matchedEvidenceIndex": 2
+   }
+  ],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-sanctioned_ai-3",
+  "spans": [
+   {
+    "start": 423,
+    "end": 647,
+    "origin": "cited",
+    "matchedEvidenceIndex": 0
+   },
+   {
+    "start": 745,
+    "end": 897,
+    "origin": "ai",
+    "matchedEvidenceIndex": 1
+   },
+   {
+    "start": 220,
+    "end": 362,
+    "origin": "ai",
+    "matchedEvidenceIndex": 2
+   }
+  ],
+  "unmatchedEvidence": []
+ },
+ {
+  "id": "llm-sanctioned_ai-4",
+  "spans": [
+   {
+    "start": 404,
+    "end": 567,
+    "origin": "ai",
+    "matchedEvidenceIndex": 2
+   },
+   {
+    "start": 733,
+    "end": 923,
+    "origin": "cited",
+    "matchedEvidenceIndex": 1
+   },
+   {
+    "start": 1094,
+    "end": 1240,
+    "origin": "ai",
+    "matchedEvidenceIndex": 0
+   }
+  ],
+  "unmatchedEvidence": []
+ }
+]

@@ -1,0 +1,20 @@
+{
+ "id": "llm-copied-4",
+ "text": "The printing press is usually treated as the obvious turning point between the medieval and modern worlds, so I wanted to look at what actually changed. Following Gutenberg's introduction of movable type around 1450, the number of books produced in Western Europe rose from a few million manuscripts in the entire fourteenth century to roughly two hundred million printed volumes by the year 1600, a scale of reproduction without precedent in human history. The new technology did not merely accelerate copying; it transformed the economics of the written word, driving the unit cost of a book down by as much as eightfold within fifty years and placing texts within reach of merchants, artisans, and clergy who had never before owned one. What surprised me is that the shift was both fast and uneven. The standardization of texts had consequences that reached far beyond literacy rates. Because identical copies could now circulate across linguistic and political boundaries, scholars in distant cities could correct, compare, and build upon one another's work in ways the error-prone manuscript tradition had never permitted, laying the groundwork for the cumulative character of modern science. The Reformation, in particular, owed much of its velocity to print: Luther's tracts were reprinted and distributed by the tens of thousands within weeks of their composition, outpacing any institutional attempt to suppress them. It is worth noting that the transformation was not instantaneous everywhere; rather, the effects rippled outward from urban printing centers and accumulated over several generations. So the honest answer is that the press changed how knowledge spread almost immediately, but the deeper social shifts took the better part of a century to settle in.",
+ "evidence": [
+  {
+   "kind": "ai_insert",
+   "text": "It is worth noting that the transformation was not instantaneous everywhere; rather, the effects rippled outward from urban printing centers and accumulated over several generations. "
+  },
+  {
+   "kind": "paste",
+   "text": "Following Gutenberg's introduction of movable type around 1450, the number of books produced in Western Europe rose from a few million manuscripts in the entire fourteenth century to roughly two hundred million printed volumes by the year 1600, a scale of reproduction without precedent in human history. The new technology did not merely accelerate copying; it transformed the economics of the written word, driving the unit cost of a book down by as much as eightfold within fifty years and placing texts within reach of merchants, artisans, and clergy who had never before owned one. ",
+   "cited": false
+  },
+  {
+   "kind": "paste",
+   "text": "The standardization of texts had consequences that reached far beyond literacy rates. Because identical copies could now circulate across linguistic and political boundaries, scholars in distant cities could correct, compare, and build upon one another's work in ways the error-prone manuscript tradition had never permitted, laying the groundwork for the cumulative character of modern science. The Reformation, in particular, owed much of its velocity to print: Luther's tracts were reprinted and distributed by the tens of thousands within weeks of their composition, outpacing any institutional attempt to suppress them. ",
+   "cited": false
+  }
+ ]
+}
