@@ -22,6 +22,8 @@ a ground-truth benchmark possible.
   per-character engine labels (`docs/`), the blind adjudicator inputs (`blind/`,
   engine labels withheld), the adjudications, `score.py`, and a README.
 - `benchmark/e2e/` — the end-to-end live-pipeline results + README.
+- `benchmark/generation/` — the verbatim recipe-generation and blind-adjudication
+  prompts (see the paper's appendix).
 - `benchmark/transplant/` — the transplant-guard suite: 700 staged sessions
   probing whether provenance survives legitimate self-moves without becoming
   a relabeling channel (700/700) + README.
