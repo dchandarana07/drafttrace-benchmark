@@ -1,0 +1,23 @@
+real-browser classroom → http://benchmark-host:8088  students=40 minutes=3 headless=true channel=chrome wifi=hall stagger=20s loss=0.01 offline=0.15 background=0.25 reopen=0.2 skew=10 slow=0.2 askai=0.2
+
+wall 254s · reached editor 40/40 · keys typed 37528
+cold load p50 937 ms · p95 1157 ms · max 31639 ms
+event POSTs (from the browsers' own network logs): 4782/4839 ok · browser-side latency p50 123 p95 155 p99 158 ms
+server replay == editor text: 40/40 · submitted 36/37 · Ask AI 0/9
+scenarios: skew×40, background×9, reopen×7, slow-cpu×9, offline×10, askai×9, reloaded-cold×1 · console errors on 32 students
+
+students with errors: 1
+  #23 Quinn Patel B23 [skew -2m,reloaded-cold]: exception: locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByText('Your answers are in') to be visible[22m
+
+
+console errors (first 5):
+  #1: Failed to load resource: net::ERR_CONNECTION_RESET
+  #2: Failed to load resource: net::ERR_CONNECTION_RESET
+  #4: Failed to load resource: net::ERR_CONNECTION_RESET
+  #5: Failed to load resource: net::ERR_CONNECTION_RESET
+  #6: Failed to load resource: net::ERR_CONNECTION_RESET
+
+FAIL — see above
+R40-DONE

@@ -1,0 +1,24 @@
+live classroom → http://localhost:8088  students=136 minutes=8 timescale=2 askai=0 offline=0.05 nosubmit=0.1 bots=0.05 recording=/private/tmp/claude-501/-Users-divyansh-Research-Projectsss/88f64f86-ec7a-4c69-886d-16aa426b65dd/scratchpad/recording_dev.json (136 recorded students)
+recreated quiz "Prompting quiz" as token ioQgmHkQ6z5Y
+quiz open, 2 questions, 15 min limit
+
+latency by phase (ms)
+  phase      n     p50    p95    p99    max  err
+  enter      136       3     25     48     50    0
+  start      136       5     15     41     48    0
+  ingest   24363       7     50     99    376    0
+  snapshot  1611       4     36     85    272    0
+  doc        136      32    108    167    189    0
+  submit     119       8     82    107    349    0
+  export     119      12     64     87    108    0
+
+wall 260s · students 136 · words written 28371 · wpm range 8–93
+events sent 146142 · acknowledged 146142 (ALL) · batches 24363 · snapshots 1606
+server replay == client doc: 136/136
+submitted 119/119 wanted · left for the sweeper 17 · offline-outage students 6 (all drained: true)
+Ask AI: 0/0 ok
+models: recording:P001×1, recording:P002×1, recording:P003×1, recording:P004×1, recording:P005×1, recording:P006×1, recording:P007×1, recording:P008×1, recording:P009×1, recording:P010×1, recording:P011×1, recording:P012×1, recording:P013×1, recording:P014×1, recording:P015×1, recording:P016×1, recording:P017×1, recording:P018×1, recording:P019×1, recording:P020×1, recording:P021×1, recording:P022×1, recording:P023×1, recording:P024×1, recording:P025×1, recording:P026×1, recording:P027×1, recording:P028×1, recording:P029×1, recording:P030×1, recording:P031×1, recording:P032×1, recording:P033×1, recording:P034×1, recording:P035×1, recording:P036×1, recording:P037×1, recording:P038×1, recording:P039×1, recording:P040×1, recording:P041×1, recording:P042×1, recording:P043×1, recording:P044×1, recording:P045×1, recording:P046×1, recording:P047×1, recording:P048×1, recording:P049×1, recording:P050×1, recording:P051×1, recording:P052×1, recording:P053×1, recording:P054×1, recording:P055×1, recording:P056×1, recording:P057×1, recording:P058×1, recording:P059×1, recording:P060×1, recording:P061×1, recording:P062×1, recording:P063×1, recording:P064×1, recording:P065×1, recording:P066×1, recording:P067×1, recording:P068×1, recording:P069×1, recording:P070×1, recording:P071×1, recording:P072×1, recording:P073×1, recording:P074×1, recording:P075×1, recording:P076×1, recording:P077×1, recording:P078×1, recording:P079×1, recording:P080×1, recording:P081×1, recording:P082×1, recording:P083×1, recording:P084×1, recording:P085×1, recording:P086×1, recording:P087×1, recording:P088×1, recording:P089×1, recording:P090×1, recording:P091×1, recording:P092×1, recording:P093×1, recording:P094×1, recording:P095×1, recording:P096×1, recording:P097×1, recording:P098×1, recording:P099×1, recording:P100×1, recording:P101×1, recording:P102×1, recording:P103×1, recording:P104×1, recording:P105×1, recording:P106×1, recording:P107×1, recording:P108×1, recording:P109×1, recording:P110×1, recording:P111×1, recording:P112×1, recording:P113×1, recording:P114×1, recording:P115×1, recording:P116×1, recording:P117×1, recording:P118×1, recording:P119×1, recording:P120×1, recording:P121×1, recording:P122×1, recording:P123×1, recording:P124×1, recording:P125×1, recording:P126×1, recording:P127×1, recording:P128×1, recording:P129×1, recording:P130×1, recording:P131×1, recording:P132×1, recording:P133×1, recording:P134×1, recording:P135×1, recording:P136×1
+instructor list: eventCount==sent for 136/136 · late-stamped 0 · late-arrived 0 · submitted without metrics 0
+
+PASS — every expectation held
+EXIT

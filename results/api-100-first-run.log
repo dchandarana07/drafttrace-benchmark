@@ -1,0 +1,37 @@
+live classroom → http://localhost:8088  students=100 minutes=3 timescale=1 askai=0.3 offline=0.1 nosubmit=0.1 bots=0.05
+quiz open, 2 questions, 15 min limit
+
+latency by phase (ms)
+  phase      n     p50    p95    p99    max  err
+  enter      100       5     10     19     19   78
+  start       22      10     15     18     18    0
+  ingest    1827      11     20     36    104    0
+  snapshot   352       9     16     35     56    0
+  askai        2     446    446    446    446    0
+  doc         22      16     47     52     52    0
+  submit      22       7     12     14     14    0
+  export      22      11     18     19     19    0
+
+wall 225s · students 100 · words written 2763 · wpm range 30–109
+events sent 14377 · acknowledged 14377 (ALL) · batches 1827 · snapshots 352
+server replay == client doc: 100/22
+submitted 22/94 wanted · left for the sweeper 6 · offline-outage students 14 (all drained: true)
+Ask AI: 2/2 ok (p50 753 ms, max 753 ms)
+models: markov×65, personality×23, profile:nervous×4, robotic×8
+
+students with errors: 78
+  #1 Sam Nguyen 1 (personality@61): enter 429
+  #2 Jordan Nguyen 2 (markov@76): enter 429
+  #3 Riley Nguyen 3 (personality@35): enter 429
+  #5 Morgan Nguyen 5 (personality@47): enter 429
+  #6 Avery Nguyen 6 (markov@33): enter 429
+  #7 Quinn Nguyen 7 (personality@44): enter 429
+  #8 Dana Nguyen 8 (markov@65): enter 429
+  #9 Reese Nguyen 9 (markov@31): enter 429
+  #10 Priya Nguyen 10 (markov@52): enter 429
+  #11 Wei Nguyen 11 (markov@75): enter 429
+  #13 Diego Nguyen 13 (personality@31): enter 429
+  #14 Noor Nguyen 14 (markov@62): enter 429
+instructor list: eventCount==sent for 22/22 · late-stamped 0 · late-arrived 0 · submitted without metrics 0
+
+FAIL — see above

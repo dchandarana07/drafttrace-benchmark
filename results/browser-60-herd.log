@@ -1,0 +1,32 @@
+real-browser classroom → http://benchmark-host:8088  students=60 minutes=3 headless=true channel=chrome wifi=hall stagger=2s loss=0.02 offline=0.1 background=0.2 reopen=0.1 skew=10 slow=0.2 askai=0.2
+
+wall 220s · reached editor 58/60 · keys typed 49120
+cold load p50 3387 ms · p95 5048 ms · max 34540 ms
+event POSTs (from the browsers' own network logs): 6540/6682 ok · browser-side latency p50 123 p95 153 p99 157 ms
+server replay == editor text: 57/58 · submitted 53/56 · Ask AI 0/16
+scenarios: skew×60, reopen×4, background×16, offline×3, askai×16, slow-cpu×12, reloaded-cold×1 · console errors on 55 students
+
+students with errors: 4
+  #1 Sam Nguyen B1 [skew -4m,reopen]: server replay differs (n/a vs 734 chars)
+  #29 Diego Patel B29 [skew 4m]: exception: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Begin' })[22m
+
+  #51 Riley Kim B51 [skew 2m]: exception: locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByText('Your answers are in') to be visible[22m
+
+  #57 Reese Kim B57 [skew 4m]: exception: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Begin' })[22m
+
+
+console errors (first 5):
+  #0: Failed to load resource: net::ERR_CONNECTION_RESET
+  #2: Failed to load resource: net::ERR_CONNECTION_RESET
+  #3: Failed to load resource: net::ERR_CONNECTION_RESET
+  #4: Failed to load resource: net::ERR_CONNECTION_RESET
+  #5: Failed to load resource: net::ERR_CONNECTION_RESET
+
+FAIL — see above
+R60B-DONE

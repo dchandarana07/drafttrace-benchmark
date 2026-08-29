@@ -1,0 +1,22 @@
+server replay == editor text: 9/10 · submitted 10/10 · Ask AI 0/1
+scenarios: skew×10, reopen×3, offline×1, slow-cpu×2, askai×1, background×1 · console errors on 9 students
+
+students with errors: 9
+  #0 Alex Nguyen B0 [skew 8m]: 3 event POSTs failed
+  #1 Sam Nguyen B1 [skew -3m]: 1 event POSTs failed
+  #2 Jordan Nguyen B2 [skew -4m,reopen]: 2 event POSTs failed
+  #4 Casey Nguyen B4 [skew -5m]: 2 event POSTs failed
+  #5 Morgan Nguyen B5 [skew 0m,askai]: 3 event POSTs failed
+  #6 Avery Nguyen B6 [skew -9m,slow-cpu]: 1 event POSTs failed
+  #7 Quinn Nguyen B7 [skew 7m,reopen]: server replay differs (749 vs 735 chars); 3 event POSTs failed
+  #8 Dana Nguyen B8 [skew 4m]: 11 event POSTs failed
+  #9 Reese Nguyen B9 [skew 4m,background,reopen]: 2 event POSTs failed
+
+console errors (first 5):
+  #0: Failed to load resource: net::ERR_CONNECTION_RESET
+  #1: Failed to load resource: net::ERR_CONNECTION_RESET
+  #2: Failed to load resource: net::ERR_CONNECTION_RESET
+  #4: Failed to load resource: net::ERR_CONNECTION_RESET
+  #5: Failed to load resource: net::ERR_CONNECTION_RESET
+
+FAIL — see above
