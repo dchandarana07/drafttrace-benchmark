@@ -1,0 +1,16 @@
+{
+ "id": "llm-likely_copied-2",
+ "text": "When I think about why campuses should defend uninterrupted study time, the strongest argument for me is not comfort but cognition. Sustained attention to a single task allows the brain to consolidate information into long-term memory, a process that is repeatedly disrupted when learners switch between competing demands. Empirical work on task-switching demonstrates that each interruption imposes a measurable cognitive cost, requiring time to re-establish the prior mental context before productive work can resume. In other words, the case is grounded in how memory actually forms, which is harder to dispute than appeals to student preference. A second reason this argument holds up is that it protects equity rather than privilege. Students who lack quiet space at home, who hold part-time employment, or who carry caregiving responsibilities depend disproportionately on institutional environments to secure the conditions necessary for deep work. The deliberate provision of protected, distraction-free spaces therefore functions as a structural support that mitigates disparities in students' out-of-class circumstances. Framing protected study time as an equity measure means the policy benefits the students who have the fewest alternatives, which strengthens its defensibility. Finally, the institution has a direct interest in the outcome it is funded to produce, namely learning, and uninterrupted time is the most reliable input to that goal. ",
+ "evidence": [
+  {
+   "kind": "paste",
+   "text": "Students who lack quiet space at home, who hold part-time employment, or who carry caregiving responsibilities depend disproportionately on institutional environments to secure the conditions necessary for deep work. The deliberate provision of protected, distraction-free spaces therefore functions as a structural support that mitigates disparities in students' out-of-class circumstances. ",
+   "cited": false
+  },
+  {
+   "kind": "paste",
+   "text": "Sustained attention to a single task allows the brain to consolidate information into long-term memory, a process that is repeatedly disrupted when learners switch between competing demands. Empirical work on task-switching demonstrates that each interruption imposes a measurable cognitive cost, requiring time to re-establish the prior mental context before productive work can resume. ",
+   "cited": false
+  }
+ ]
+}

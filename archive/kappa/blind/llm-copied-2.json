@@ -1,0 +1,26 @@
+{
+ "id": "llm-copied-2",
+ "text": "I think constant phone access mostly harms focus, and the research backs that up. The mere presence of a smartphone, even when powered off and placed face-down, has been shown to reduce available cognitive capacity, as a portion of attention remains allocated to inhibiting the impulse to check the device. This phenomenon, sometimes termed \"brain drain,\" persists irrespective of whether the user consciously believes they are attending to the phone. Each interruption initiates a period of attentional residue, during which the mind continues to process the previous task while attempting to engage the new one, and full reorientation to demanding cognitive work has been estimated to require upward of twenty minutes. I noticed this myself last semester. Frequent task-switching, often mistaken for multitasking, does not occur in parallel but rather as rapid serial shifts of attention, each incurring a measurable switching cost in both time and error rate. Heavy media multitaskers, contrary to intuition, perform worse on filtering irrelevant stimuli and exhibit diminished working-memory performance relative to those who multitask less. Notifications function as intermittent variable reinforcement, a schedule of reward known to be among the most resistant to extinction, which helps explain the compulsive quality of habitual phone-checking. When I left my phone in another room while writing my thesis chapter, I finished in half the time. ",
+ "evidence": [
+  {
+   "kind": "paste",
+   "text": "Each interruption initiates a period of attentional residue, during which the mind continues to process the previous task while attempting to engage the new one, and full reorientation to demanding cognitive work has been estimated to require upward of twenty minutes. ",
+   "cited": false
+  },
+  {
+   "kind": "paste",
+   "text": "The mere presence of a smartphone, even when powered off and placed face-down, has been shown to reduce available cognitive capacity, as a portion of attention remains allocated to inhibiting the impulse to check the device. This phenomenon, sometimes termed \"brain drain,\" persists irrespective of whether the user consciously believes they are attending to the phone. ",
+   "cited": false
+  },
+  {
+   "kind": "paste",
+   "text": "Frequent task-switching, often mistaken for multitasking, does not occur in parallel but rather as rapid serial shifts of attention, each incurring a measurable switching cost in both time and error rate. Heavy media multitaskers, contrary to intuition, perform worse on filtering irrelevant stimuli and exhibit diminished working-memory performance relative to those who multitask less. ",
+   "cited": false
+  },
+  {
+   "kind": "paste",
+   "text": "Notifications function as intermittent variable reinforcement, a schedule of reward known to be among the most resistant to extinction, which helps explain the compulsive quality of habitual phone-checking. ",
+   "cited": false
+  }
+ ]
+}

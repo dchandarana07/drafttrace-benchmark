@@ -1,0 +1,19 @@
+{
+ "id": "llm-sanctioned_ai-1",
+ "text": "When people talk about the printing press, they usually picture Gutenberg in the 1440s and assume everything changed overnight, but the real shift was messier than that. What the press mainly did was make copies cheap and identical, so a book that once took a scribe months could now be run off in much larger numbers. The deeper change was less about speed and more about standardization: identical copies meant ideas could be checked, compared, and argued over by readers who were literally looking at the same page. That mattered most for things like religious reform and early science, where being able to share an exact text let disagreements spread instead of dying in one town. As for how fast it happened, the honest answer is slower than people expect. By 1500, presses in over 250 European towns had produced an estimated twenty million volumes, a figure that rose to between 150 and 200 million in the following century. Those numbers sound explosive, but most people still could not read, books stayed expensive, and the bigger social effects took generations to show up. In short, the press was a fast technology with slow consequences, and that gap between invention and impact is exactly what makes its history worth studying. ",
+ "evidence": [
+  {
+   "kind": "ai_insert",
+   "text": "In short, the press was a fast technology with slow consequences, and that gap between invention and impact is exactly what makes its history worth studying. "
+  },
+  {
+   "kind": "paste",
+   "text": "By 1500, presses in over 250 European towns had produced an estimated twenty million volumes, a figure that rose to between 150 and 200 million in the following century. ",
+   "cited": true
+  },
+  {
+   "kind": "ai_insert",
+   "text": "The deeper change was less about speed and more about standardization: identical copies meant ideas could be checked, compared, and argued over by readers who were literally looking at the same page. "
+  }
+ ]
+}

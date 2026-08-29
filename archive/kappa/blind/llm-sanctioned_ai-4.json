@@ -1,0 +1,19 @@
+{
+ "id": "llm-sanctioned_ai-4",
+ "text": "The most defensible argument for protecting uninterrupted study time on campus is that deep, sustained focus is what actually produces the learning a university exists to deliver. Anyone who has tried to work through a dense problem set knows the difference between an hour of real concentration and an hour of fragmented attention chopped up by notifications, hallway noise, and a roommate's questions. When attention is repeatedly broken, the brain pays a switching cost each time it tries to reload the task, so the same hour yields far less genuine understanding. Protecting that time, then, is not a comfort or a perk; it is a precondition for the kind of thinking that grades, transcripts, and degrees are supposed to certify. As the educational psychologist K. Anders Ericsson observed, \"deliberate practice requires sustained concentration over extended periods and cannot be maintained amid frequent interruption.\" If we take that claim seriously, the campus has an obligation to defend quiet hours, library policies, and dorm norms as actively as it defends academic-integrity rules. Framing focus as a shared resource, rather than a private burden each student must somehow win on their own, makes the case far harder to dismiss. Uninterrupted study time is the quiet infrastructure on which everything else a college promises ultimately rests.",
+ "evidence": [
+  {
+   "kind": "ai_insert",
+   "text": "Framing focus as a shared resource, rather than a private burden each student must somehow win on their own, makes the case far harder to dismiss. "
+  },
+  {
+   "kind": "paste",
+   "text": "As the educational psychologist K. Anders Ericsson observed, \"deliberate practice requires sustained concentration over extended periods and cannot be maintained amid frequent interruption.\" ",
+   "cited": true
+  },
+  {
+   "kind": "ai_insert",
+   "text": "When attention is repeatedly broken, the brain pays a switching cost each time it tries to reload the task, so the same hour yields far less genuine understanding. "
+  }
+ ]
+}

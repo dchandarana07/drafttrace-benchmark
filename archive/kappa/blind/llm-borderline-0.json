@@ -1,0 +1,11 @@
+{
+ "id": "llm-borderline-0",
+ "text": "When people talk about the printing press I think most of us picture it as just a faster way to make books, but honestly it did way more than that. Before Gutenberg came along in the mid 1400s, books were copied by hand which took forever and meant pretty much only churches and rich people could own them. Within a few decades of its introduction, the printing press had reduced the cost of book production by an order of magnitude, transforming texts from rare luxury items into widely available commodities and laying the groundwork for mass literacy across the European continent. So basically a thing that used to take a monk months could now be cranked out in days, and that changed who got to read.As for how fast it spread, it was actually kind of crazy quick for back then. Printing shops popped up all over Europe in like fifty years, and once ideas could travel cheap they were really hard to control, which is a big reason the Reformation took off the way it did since Luther's stuff got printed everywhere. I'd say the press didn't just change society slowly over time, it sort of kicked off a chain reaction that nobody really planned for.",
+ "evidence": [
+  {
+   "kind": "paste",
+   "text": "Within a few decades of its introduction, the printing press had reduced the cost of book production by an order of magnitude, transforming texts from rare luxury items into widely available commodities and laying the groundwork for mass literacy across the European continent. ",
+   "cited": false
+  }
+ ]
+}
