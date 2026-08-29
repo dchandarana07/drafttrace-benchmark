@@ -68,9 +68,10 @@ const SKEW_MIN = Number(flag('skew', '0'))
 // Wait for the sweeper to seal every non-submitter (deadline + 15 min ingest
 // grace + a sweep) and verify metrics — the only way to prove that path.
 const WAIT_SWEEPER = args.includes('--wait-sweeper')
-// --recording file.json: replay REAL recorded students (a recording bundle) at their original timing instead of synthetic writers. The
-// runner recreates a quiz with the recording's questions (needs ADMIN_TOKEN)
-// so every step lands at the position it was recorded at.
+// --recording file.json: replay REAL recorded students at their original
+// timing instead of synthetic writers (docs/RECORDING_FORMAT.md). The runner
+// recreates a quiz from the bundle's questions (needs ADMIN_TOKEN) so every
+// step lands at the position it was recorded at.
 const RECORDING = flag('recording')
 type Recorded = { id: string; submitted: boolean; durationMs: number; base?: unknown; events: Array<{ t: number; source: string; delta: number; steps: unknown[]; pastedTextLen?: number }> }
 type RecordingBundle = { quiz: { title: string; questions: Array<{ prompt: string }>; timeLimitMin: number | null; wordTarget: number | null }; students: Recorded[] }
