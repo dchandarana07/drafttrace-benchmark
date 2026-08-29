@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.tsbuildinfo
+# Human-baseline data is NOT redistributed here — see docs/HUMAN_BASELINE.md
+data/
+tools/kupa/out/
+# Local run artefacts
+*.local.json
+report.json
+shots/

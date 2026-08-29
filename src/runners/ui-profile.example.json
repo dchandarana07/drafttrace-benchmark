@@ -1,0 +1,15 @@
+{
+  "quizPath": "/assignments/{token}/write",
+  "nameInputCss": "input[name=student-name]",
+  "beginButton": "Start",
+  "continueButton": "/Resume/",
+  "editorCss": "[contenteditable=true]",
+  "firstAnswerCss": "[contenteditable=true] > p",
+  "submitButton": "Turn in",
+  "submitConfirmButton": "Confirm",
+  "doneText": "Submitted",
+  "submitRetryText": "/could not submit/i",
+  "downloadLinkText": "/Download/",
+  "assistantOpenButton": "",
+  "sessionIdLocalStoragePrefix": "session-"
+}

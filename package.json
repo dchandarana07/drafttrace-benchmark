@@ -1,0 +1,29 @@
+{
+  "name": "drafttrace-benchmark",
+  "version": "1.0.0",
+  "description": "An open benchmark for writing-process recorders: seeded human-typing models, a writer layer, real ProseMirror replay, engine-free process metrics, and classroom runners.",
+  "license": "MIT",
+  "type": "module",
+  "private": false,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "vitest run",
+    "bench": "tsx src/runners/run.ts --compare --n 10 --words 300",
+    "bench:fast": "tsx src/runners/run.ts --model markov --n 3 --words 200",
+    "live": "tsx src/runners/live.ts",
+    "browser": "tsx src/runners/browser.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tiptap/core": "^2.11.5",
+    "@tiptap/pm": "^2.11.5",
+    "@tiptap/starter-kit": "^2.11.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "playwright-core": "^1.49.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.9"
+  }
+}
