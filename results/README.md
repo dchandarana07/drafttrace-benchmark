@@ -31,6 +31,8 @@ Licence: CC BY 4.0 (see `../LICENSE-DATA`).
 | `browser-80-staggered.log` + `-api-tier.log` | S2.5 at 80 — 80 real browsers, 30-second arrival, plus 40 API students | 78/80 reached the editor, cold p50 0.92 s / p95 1.25 s / max 1.9 s, 77/77 replays identical, 69/71 submitted; client steady CPU 16 %, launch peak 93 %, Chrome ~27 GB of 32 — RAM is the client's ceiling at 80. API tier 40/40 PASS |
 | `api-60-heavy-offline.log` | S1.6 — 60 API students, 40 % with outages, ±10 min skew, after the ordering fix | PASS — 43,122 events, 60/60 replays identical |
 
+| `browser-80-final.log` + `-api-tier.log` | S2.5 at 80 on the final reference build — 80 real browsers, 30-second arrival, ±10 min skew, 1 % loss, 15 % reopen, 20 % tab-hide, 10 % offline, plus 40 API students | **PASS** — 80/80 reached the editor (cold p50 0.95 s, p95 1.6 s), 80/80 replays identical, 72/72 submitted, 10,006/10,108 POSTs first try; API tier 40/40 PASS |
+
 ## Reading the JSON
 
 Each `*.json` from `live.ts` is:

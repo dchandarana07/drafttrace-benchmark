@@ -1,0 +1,17 @@
+real-browser classroom → http://benchmark-host:8088  students=80 minutes=3 headless=true channel=chrome wifi=hall stagger=30s loss=0.01 offline=0.1 background=0.2 reopen=0.15 skew=10 slow=0.2 askai=0.2
+
+wall 217s · reached editor 80/80 · keys typed 75626
+cold load p50 948 ms · p95 1604 ms · max 1806 ms
+event POSTs (from the browsers' own network logs): 10006/10108 ok · browser-side latency p50 125 p95 157 p99 198 ms
+server replay == editor text: 80/80 · submitted 72/72 · Ask AI 0/18
+scenarios: skew×80, background×17, reopen×8, askai×18, offline×7, slow-cpu×13, submit-retry×1 · console errors on 57 students
+
+console errors (first 5):
+  #0: Failed to load resource: net::ERR_CONNECTION_RESET
+  #1: Failed to load resource: net::ERR_CONNECTION_RESET
+  #2: Failed to load resource: net::ERR_CONNECTION_RESET
+  #4: Failed to load resource: net::ERR_CONNECTION_RESET
+  #5: Failed to load resource: net::ERR_CONNECTION_RESET
+
+PASS — every expectation held
+R80C-DONE

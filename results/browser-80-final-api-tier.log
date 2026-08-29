@@ -1,0 +1,22 @@
+live classroom → http://benchmark-host:8088  students=40 minutes=3 timescale=1 askai=0 offline=0.1 nosubmit=0.1 bots=0.05
+quiz open, 2 questions, 15 min limit
+
+latency by phase (ms)
+  phase      n     p50    p95    p99    max  err
+  enter       40      19    406    995    995    0
+  start       40      29    545    707    707    0
+  ingest    3472       7     51    299   1174    0
+  snapshot   269       5     18     48     68    0
+  doc         40      20     80     83     83    0
+  submit      35       7     26     31     31    0
+  export      35      10     33     36     36    0
+
+wall 215s · students 40 · words written 5565 · wpm range 35–108
+events sent 30502 · acknowledged 30502 (ALL) · batches 3472 · snapshots 269
+server replay == client doc: 40/40
+submitted 35/35 wanted · left for the sweeper 5 · offline-outage students 3 (all drained: true)
+Ask AI: 0/0 ok
+models: markov×23, personality×16, robotic×1
+instructor list: eventCount==sent for 40/40 · late-stamped 0 · late-arrived 0 · submitted without metrics 0
+
+PASS — every expectation held
