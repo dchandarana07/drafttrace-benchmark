@@ -135,3 +135,13 @@ happens. The reference implementation does not catch it either, and says so.
   three already defeats timing analysis", not "0.46 is where bots stop".
 - **In-sample.** The floor was measured on the same corpus used to sanity-check
   the models. Report the margin, not a clean separation.
+
+## Licence note (read before reusing the numbers)
+
+KUPA-KEYS is released under **CC BY-NC-SA 4.0** (Cambridge ALTA). This
+repository does not redistribute the corpus; it publishes a converter and a
+handful of aggregate statistics (distribution quantiles of a derived
+feature), attributed to the corpus. The NonCommercial clause means the corpus
+itself — and anything that counts as an adaptation of it — must not be used
+for commercial purposes; a product team should calibrate on its own data or a
+permissively licensed corpus before shipping thresholds derived here.
