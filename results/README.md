@@ -10,7 +10,7 @@ desktop (Ryzen 7, 32 GB) over a private network. Runs are from 2026-08-29.
 
 **What is in them.** Only counters, timings and pass/fail. No writing, no
 student text, no names beyond the runner's own generated ones (`Alex Nguyen
-0`), no addresses. Session ids are UUIDs from a throwaway test database. The
+0`), no addresses. Session ids have been replaced by `<session>`. The
 host address and the source quiz's title have been generalised.
 
 Licence: CC BY 4.0 (see `../LICENSE-DATA`).
@@ -22,10 +22,14 @@ Licence: CC BY 4.0 (see `../LICENSE-DATA`).
 | `api-100-assistant-burst.{json,log}` | S1.2 + S1.3 — the same class after the cap was raised, with 31 assistant questions | PASS on transport (76,776 events all acknowledged, 100/100 replays identical, 87/87 submitted), **16/31 assistant answers** — provider rate limits |
 | `api-100-assistant-exhausted.{json,log}` | S1.8 — the same class with the assistant's quota gone | PASS on transport (71,948 events, 100/100 replays); 0/29 assistant answers, all failing slowly (p50 24 s). This is why a failed ask now fails the run |
 | `api-100-clock-skew.{json,log}` | S1.6 — 100 students, ±10 min per-student clock skew, 10 % outages | PASS — 74,242 events all acknowledged, 100/100 replays identical, 91/91 submitted, ingest p99 35 ms, submit p99 27 ms |
-| `replay-136-class.{json,log}` | S3.3 — a recorded class of 136 students replayed at 2× | PASS — 146,142/146,142 events, 136/136 replays identical, 119/119 submits, ingest p99 99 ms. The bundle itself is not published |
+| `replay-136-class.{json,log}` | S3.3 — a recorded class of 136 sessions (themselves produced by earlier synthetic load runs against the reference system — no human participants) replayed at 2× | PASS — 146,142/146,142 events, 136/136 replays identical, 119/119 submits, ingest p99 99 ms. The bundle itself is not published |
 | `browser-10.log` | S2.2 — 10 real browsers, 3 min, all scenarios, 2 % injected loss, ±10 min skew | FAIL as reported: 9/10 replays. The first pass counted injected-loss retries as failures; the accounting was corrected for the later runs |
 | `browser-60-herd.log` + `browser-60-herd-api-tier.log` | S2.4 — 60 real browsers with a 2-second arrival, plus 40 API students concurrently | FAIL at 60: 58/60 reached the editor, 57/58 replays, cold load p50 3.4 s. The client machine was at 86–92 % CPU — this is the **client's** ceiling, not the server's. The API tier PASSED concurrently (29,074 events, 40/40 replays) |
 | `browser-40-realistic.log` + `browser-40-realistic-api-tier.log` | S2.5 — 40 real browsers, 20-second arrival, 1 % loss, 20 % reopen, 25 % tab-hide, 15 % offline, plus 40 API students | 40/40 reached the editor (cold p50 0.94 s, p95 1.16 s), **40/40 server replays identical including all 7 reopen students**, 4,782/4,839 POSTs first try, 36/37 submitted. The one miss: the app correctly showed "Could not submit — try again" after an injected loss and the runner did not press Submit again. A student would; the runner now retries. API tier 40/40 PASS |
+
+| `browser-60-staggered.log` + `-api-tier.log` | S2.5 at 60 — 60 real browsers, 20-second arrival, plus 40 API students | 58/60 reached the editor, cold p95 1.16 s, 58/58 replays identical; client steady CPU 12 %. The API tier found **2/40 replays one or two characters short** — same-millisecond events from a drained offline batch were ordered by row id; the reference system now orders by (ts, client sequence, id) |
+| `browser-80-staggered.log` + `-api-tier.log` | S2.5 at 80 — 80 real browsers, 30-second arrival, plus 40 API students | 78/80 reached the editor, cold p50 0.92 s / p95 1.25 s / max 1.9 s, 77/77 replays identical, 69/71 submitted; client steady CPU 16 %, launch peak 93 %, Chrome ~27 GB of 32 — RAM is the client's ceiling at 80. API tier 40/40 PASS |
+| `api-60-heavy-offline.log` | S1.6 — 60 API students, 40 % with outages, ±10 min skew, after the ordering fix | PASS — 43,122 events, 60/60 replays identical |
 
 ## Reading the JSON
 

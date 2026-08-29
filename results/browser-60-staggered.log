@@ -1,0 +1,26 @@
+real-browser classroom → http://benchmark-host:8088  students=60 minutes=3 headless=true channel=chrome wifi=hall stagger=20s loss=0.01 offline=0.1 background=0.2 reopen=0.15 skew=10 slow=0.2 askai=0.2
+
+wall 217s · reached editor 58/60 · keys typed 52051
+cold load p50 919 ms · p95 1159 ms · max 31635 ms
+event POSTs (from the browsers' own network logs): 7069/7165 ok · browser-side latency p50 124 p95 156 p99 250 ms
+server replay == editor text: 58/58 · submitted 55/56 · Ask AI 0/11
+scenarios: skew×60, askai×11, reopen×13, background×20, reloaded-cold×1, slow-cpu×8, offline×6 · console errors on 45 students
+
+students with errors: 2
+  #39 Quinn Garcia B39 [skew 5m,background,reopen]: exception: locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('.ProseMirror') to be visible[22m
+
+  #40 Dana Garcia B40 [skew -5m]: exception: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Begin' })[22m
+
+
+console errors (first 5):
+  #1: Failed to load resource: net::ERR_CONNECTION_RESET
+  #2: Failed to load resource: net::ERR_CONNECTION_RESET
+  #3: Failed to load resource: net::ERR_CONNECTION_RESET
+  #5: Failed to load resource: net::ERR_CONNECTION_RESET
+  #6: Failed to load resource: net::ERR_CONNECTION_RESET
+
+FAIL — see above

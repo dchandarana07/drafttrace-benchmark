@@ -21,7 +21,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 92,
-   "sid": "c3247f47-5d4f-4ebf-b952-b5d5e34bf8b7",
+   "sid": "<session>",
    "askai": "skipped",
    "docMatch": true,
    "exportOk": true
@@ -103,7 +103,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 106,
-   "sid": "97508120-e9cb-4bd3-acbf-9529a3adef5c",
+   "sid": "<session>",
    "askai": "skipped",
    "docMatch": true,
    "exportOk": true
@@ -265,7 +265,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 169,
-   "sid": "3809828e-8a6f-411c-9d06-59de24dc63f1",
+   "sid": "<session>",
    "askai": "skipped",
    "docMatch": true,
    "exportOk": true
@@ -327,7 +327,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 122,
-   "sid": "a95c4199-34c2-4855-b131-aaedc0267386",
+   "sid": "<session>",
    "askai": "skipped",
    "docMatch": true,
    "exportOk": true
@@ -489,7 +489,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 138,
-   "sid": "c88c1b6b-26de-4f7c-ba71-f7c1c170ca47",
+   "sid": "<session>",
    "askai": "skipped",
    "docMatch": true,
    "exportOk": true
@@ -751,7 +751,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 106,
-   "sid": "76fa8b28-80dc-4af9-8e76-af44f6113548",
+   "sid": "<session>",
    "askai": "skipped",
    "docMatch": true,
    "exportOk": true
@@ -793,7 +793,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 141,
-   "sid": "fc534b77-7463-4210-98c7-80a212d30248",
+   "sid": "<session>",
    "askai": "skipped",
    "docMatch": true,
    "exportOk": true
@@ -815,7 +815,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 166,
-   "sid": "38d868ce-fe54-4181-8504-e9abdec70df4",
+   "sid": "<session>",
    "askai": "skipped",
    "docMatch": true,
    "exportOk": true
@@ -917,7 +917,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 122,
-   "sid": "e941f559-1242-4cf4-97ac-15dcb2928136",
+   "sid": "<session>",
    "askai": "ok",
    "askaiMs": 636,
    "docMatch": true,
@@ -940,7 +940,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 111,
-   "sid": "0d74d829-929a-48b2-9d66-3f30eefd1b50",
+   "sid": "<session>",
    "askai": "skipped",
    "docMatch": true,
    "exportOk": true
@@ -1162,7 +1162,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 136,
-   "sid": "4230e50f-cf78-4eb2-af26-93d8981f4dba",
+   "sid": "<session>",
    "askai": "skipped",
    "docMatch": true,
    "exportOk": true
@@ -1184,7 +1184,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 67,
-   "sid": "2c0ee9cf-c7c6-4069-9522-78b793125366",
+   "sid": "<session>",
    "askai": "skipped",
    "docMatch": true,
    "exportOk": true
@@ -1266,7 +1266,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 104,
-   "sid": "dc61bb23-8f37-46ac-a991-6ef98fad5d0d",
+   "sid": "<session>",
    "askai": "ok",
    "askaiMs": 753,
    "docMatch": true,
@@ -1349,7 +1349,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 155,
-   "sid": "a51fd533-3f74-4489-b951-da006ca09be1",
+   "sid": "<session>",
    "askai": "skipped",
    "docMatch": true,
    "exportOk": true
@@ -1451,7 +1451,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 119,
-   "sid": "ed6c69c9-0d96-4554-8f38-2661be0d265b",
+   "sid": "<session>",
    "askai": "skipped",
    "docMatch": true,
    "exportOk": true
@@ -1513,7 +1513,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 105,
-   "sid": "0076007a-4f95-4a3c-aac2-5115906c9ce5",
+   "sid": "<session>",
    "askai": "skipped",
    "docMatch": true,
    "exportOk": true
@@ -1595,7 +1595,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 128,
-   "sid": "c3e15947-d800-4d12-a273-aed48c602611",
+   "sid": "<session>",
    "askai": "skipped",
    "docMatch": true,
    "exportOk": true
@@ -1657,7 +1657,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 114,
-   "sid": "c07baf88-7439-427f-bc78-dd9e49547e69",
+   "sid": "<session>",
    "askai": "skipped",
    "docMatch": true,
    "exportOk": true
@@ -1759,7 +1759,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 106,
-   "sid": "1471b912-29f7-418a-9637-6f97b739d28d",
+   "sid": "<session>",
    "askai": "skipped",
    "docMatch": true,
    "exportOk": true
@@ -1781,7 +1781,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 151,
-   "sid": "fe415780-e940-4772-99c2-b1a7c2fecf2b",
+   "sid": "<session>",
    "askai": "skipped",
    "docMatch": true,
    "exportOk": true
@@ -1883,7 +1883,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 173,
-   "sid": "3576e092-e56a-458a-b16b-639da3546cd5",
+   "sid": "<session>",
    "askai": "skipped",
    "docMatch": true,
    "exportOk": true
@@ -1945,7 +1945,7 @@
    "wantedSubmit": true,
    "errors": [],
    "finalWords": 132,
-   "sid": "1cc88680-fd78-481d-8ab8-f68ebcad7729",
+   "sid": "<session>",
    "askai": "skipped",
    "docMatch": true,
    "exportOk": true

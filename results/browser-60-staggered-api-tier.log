@@ -1,0 +1,26 @@
+live classroom → http://benchmark-host:8088  students=40 minutes=3 timescale=1 askai=0 offline=0.1 nosubmit=0.1 bots=0.05
+quiz open, 2 questions, 15 min limit
+
+latency by phase (ms)
+  phase      n     p50    p95    p99    max  err
+  enter       40      10     90    242    242    0
+  start       40       8     65     92     92    0
+  ingest    3329       9     62    220    541    0
+  snapshot   256       7    111    171    251    0
+  doc         40      29    180    246    246    0
+  submit      36      10     58    272    272    0
+  export      36      15     70    103    103    0
+
+wall 228s · students 40 · words written 5862 · wpm range 30–109
+events sent 32097 · acknowledged 32097 (ALL) · batches 3329 · snapshots 256
+server replay == client doc: 38/40
+submitted 36/36 wanted · left for the sweeper 4 · offline-outage students 6 (all drained: true)
+Ask AI: 0/0 ok
+models: markov×25, personality×11, profile:nervous×2, robotic×2
+
+students with errors: 2
+  #4 Casey Nguyen 4 (markov@88): server replay differs (server 867 chars vs client 868)
+  #31 Yuki Patel 31 (markov@65): server replay differs (server 731 chars vs client 733)
+instructor list: eventCount==sent for 40/40 · late-stamped 0 · late-arrived 0 · submitted without metrics 0
+
+FAIL — see above
